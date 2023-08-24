@@ -1,0 +1,48 @@
+/* Home Section */
+.card{
+    width: 70%;
+    
+   
+    margin: 4vh auto 0;
+    border-radius: 2.5vh;
+    padding: 4vw;
+    text-align: center;
+}
+.search input{
+   
+    padding: 1.8vw 0.9vw;
+    height: 0.2vh;
+    margin-right: 1.1vh;
+    font-size: 0.6rem;
+}
+
+
+.search button img{
+    position: relative;
+    top: -0.7vh;
+    height: 0.7rem;
+    
+}
+/* main temperature section */
+.weather h1{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.weather h2{
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-top: -8px;
+}
+.humidity ,.wind{
+    font-size: 0.8rem;
+    margin-top: -5px;
+}
+.details{
+    
+    padding: 0 0.2vw;
+    margin: 12vh 2vh;
+}
+.col img{
+    
+    margin-right: 2vw;
+}

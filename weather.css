@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Caprasimo', cursive;
+    font-size: 1.2rem;
+}
+body{
+    background-color: rgba(87, 48, 48, 0.457);
+}
+.card::before{
+    content: "";
+    background: url("/weather-app-img/rainbow-4047523_1280.jpg") no-repeat center center/cover;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+}
+.card{
+    width: 50%;
+    /* max-width: 45vw; */
+    background: linear-gradient(135deg, rgb(0, 254, 186),rgb(91, 84, 138));
+    color: rgb(81, 64, 43);
+    margin: 6vh auto 0;
+    border-radius: 5vh;
+    padding: 4vw;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: rgb(235, 255, 252);
+    color: rgb(85, 85, 85);
+    padding: 3vw 1.8vw;
+    height: 0.5vh;
+    border-radius: 9vh;
+    flex: 1;
+    margin-right: 4vh;
+    font-size: 1.2rem;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background: rgb(99, 124, 11);
+    border-radius: 50%;
+    width: 4.7vw;
+    height: 4.7vw;
+    cursor: pointer;
+}
+.search button:hover{
+    background-color: rgb(223, 175, 214);
+}
+.search button img{
+    margin-top: 0.3vh;
+    height: 1.3rem;
+    
+}
+
+.weather-icon{
+    width: 17vw;
+    margin-top: 4vh;
+}
+.weather h1{
+    font-size: 3.6rem;
+    font-weight: 600;
+}
+.weather h2{
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.5vw;
+    margin: 12vh 2vh;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin: 0 4vh;
+}
+.col img{
+    width: 5vw;
+    margin-right: 2.2vh;
+}
+.humidity ,.wind{
+    font-size: 2.2rem;
+    margin-top: -8px;
+}
+.weather{
+    display: none;
+}
+.error{
+    display: none;
+    text-align: left;
+    margin-top: 2vh;
+    margin-left: 2vw;
+    font-size: 0.8rem;
+}
